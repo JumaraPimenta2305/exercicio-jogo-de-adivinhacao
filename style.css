@@ -6,7 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: #f2f2f2;
-    min-width: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,6 +27,7 @@ main {
     padding: 25px;
     border-radius: 8px;
     width: 320px;
+    max-width: 320px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -43,6 +44,7 @@ input:focus {
 }
 button {
     margin-top: 15px;
+    margin-bottom: 15px;
     width: 100%;
     padding: 10px;
     border: none;
@@ -59,6 +61,7 @@ button:hover {
 #mensagemResultado {
     margin-top: 15px;
     font-weight: bold;
+    font-size: 18px;
 }
 #numeroTentativa {
     margin-top: 8px;
